@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,400&family=Tenor+Sans&display=swap');
+
+:root {
+    --text-color: #2D2D30;
+    --title-font: 'Tenor Sans', sans-serif;
+    --body-font: 'Poppins', sans-serif;
+    --biggest-font-size: 4rem;
+    --big-font-size: 1.2rem;
+    --normal-font-size: .930rem;
+    --small-font-size: .70rem;
+
+}
+
+@media screen and (min-width: 768px) {
+    :root {
+        --biggest-font-size: 4.5rem;
+        --big-font-size: 2.25rem;
+        --normal-font-size: 1rem;
+        --small-font-size: .870rem;
+    }
+    
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    width: 330px;
+}
+
+#main {
+    position: relative;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: var(--title-font);
+    font-size: var(--biggest-font-size);
+    color: var(--text-color);
+    width: 330px;
+    word-wrap: break-word;
+    line-height: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    text-align: center;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+#counter {
+    display: flex;
+    justify-content: center;
+    font-family: var(--title-font);
+    font-size: var(--biggest-font-size);
+    color: var(--text-color);
+    padding: 1rem;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#increase, #decrease {
+    display: block;
+    font-family: var(--body-font);
+    font-size: 1.5rem;
+    font-weight: 800;
+	border-radius: 50%;
+    height: 63px;
+    width: 63px;
+    border: 2px solid var(--text-color);
+    cursor: pointer;
+}
+
+#reset {
+    display: block;
+    font-family: var(--body-font);
+    font-size: .930rem;
+    font-weight: 900;
+	border-radius: 50%;
+    height: 63px;
+    width: 63px;
+    background-color: var(--text-color);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#increase:hover, #decrease:hover {
+    transition: .3s;
+    background-color: var(--text-color);
+    color: #fff;
+}
+
+#reset:hover {
+    transition: .3s;
+    background-color: #5e5e63;
+}
+
+
+footer {
+    width: 330px;
+    position: absolute;
+    bottom: 5px;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+footer p {
+    font-family: var(--body-font);
+    font-size: var(--small-font-size);
+}
+
+.social-icons {
+    font-size: 1.2rem;
+}
+
+.social-icons:hover {
+    color: var(--text-color);
+}
+
+
+@media screen and (max-width: 375px) {
+    h1 {
+        text-align: center;
+        font-family: var(--title-font);
+        font-size: var(--biggest-font-size);
+        color: var(--text-color);
+        width: 300px;
+        word-wrap: break-word;
+        line-height: 3.5rem;
+        margin: auto;
+    }
+
+    footer {
+        bottom: 25px;
+}}
