@@ -90,6 +90,7 @@ p {
 	border-radius: 50%;
     height: 63px;
     width: 63px;
+    color: var(--text-color);
     border: 2px solid var(--text-color);
     cursor: pointer;
 }
@@ -108,7 +109,7 @@ p {
     cursor: pointer;
 }
 
-#increase:hover, #decrease:hover {
+#increase:active, #decrease:active {
     transition: .3s;
     background-color: var(--text-color);
     color: #fff;
