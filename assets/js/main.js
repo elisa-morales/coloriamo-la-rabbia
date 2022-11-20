@@ -12,15 +12,12 @@ const increaseButton = newElement('button', 'increase', '+');
 const decreaseButton = newElement('button', 'decrease', '-');
 const resetButton = newElement('button', 'reset', 'RESET');
 
-// append child
 main.appendChild(counterContainer);
 counterContainer.appendChild(counterNum);
 counterContainer.appendChild(counterButtons);
 counterButtons.appendChild(increaseButton);
 counterButtons.appendChild(resetButton);
 counterButtons.appendChild(decreaseButton);
-
-// set initial count
 
 let count = 0;
 let maxClicks = 25;
