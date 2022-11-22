@@ -16,7 +16,7 @@ L'applicazione è dotata di tre pulsanti.
 * (-) decrementa il valore del counter, lasciando invariato il colore di sfondo.
 * (reset) azzera il contatore e riporta la pagina al colore di partenza.
 
-Una volta totalizzato un certo numero (che non antipico per non rovinare il piacere della scoperta), un messaggio di avviso spunterà fuori per accertarsi delle condizioni psicofisiche dell'utente.
+Una volta totalizzato un certo numero (che non anticipo per non rovinare il piacere della scoperta), un messaggio di avviso spunterà fuori per accertarsi delle condizioni psicofisiche dell'utente.
 
 <img src="https://github.com/elisa-morales/coloriamo-la-rabbia/blob/main/screenshots/alert-counter.jpg">
 
