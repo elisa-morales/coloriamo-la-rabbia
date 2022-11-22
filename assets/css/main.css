@@ -87,7 +87,7 @@ p {
     font-family: var(--body-font);
     font-size: 1.5rem;
     font-weight: 800;
-	border-radius: 50%;
+    border-radius: 50%;
     height: 63px;
     width: 63px;
     color: var(--text-color);
@@ -100,7 +100,7 @@ p {
     font-family: var(--body-font);
     font-size: .930rem;
     font-weight: 900;
-	border-radius: 50%;
+    border-radius: 50%;
     height: 63px;
     width: 63px;
     background-color: var(--text-color);
